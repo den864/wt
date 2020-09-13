@@ -106,7 +106,7 @@ h1, h2, h3{
 .header {
     position: relative;
     height: 95vh;
-    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)) , url('../images/back.jpg');
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)) , url('../images/header.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -426,7 +426,7 @@ h1, h2, h3{
     cursor: pointer;
 }
 
-/* ##################  Login Page ################# */
+/* ##################  Login Page styling ################# */
 
 
  
@@ -441,15 +441,15 @@ h1, h2, h3{
      text-align: center;
     width: 50rem;
     height: auto;
-    padding: 15rem 10rem;
+    padding: 10rem;
     /* box-shadow: 0px 0px 20px 0px rgb(0,0,0,0.4); */
     background: #fff;
     border: 2px solid #e63946;
  }
- .wrap h1, .reg h1{
+ .wrap h1{
      font-size: 2rem;
      font-weight: 700;
-     margin-bottom: 2rem;
+     margin-bottom: 4rem;
      letter-spacing: 4px;
      
 
@@ -459,7 +459,7 @@ h1, h2, h3{
 .wrapper input[type=email], .wrapper input[type=password] , .wrapper input[type=submit], .reg input[type=email], .reg input[type=password] , .reg input[type=text], .reg input[type=email]{
    padding: 0.4rem;
    width: 25rem;
-   margin-bottom: 2rem;
+   margin-bottom: 2.5rem;
 
 }
 .wrapper input[type=submit], .reg input[type=submit]{
@@ -476,6 +476,7 @@ h1, h2, h3{
  
 .botom, .reg p{
      font-size: 1.6rem;
+     letter-spacing: normal;
      padding: 0.7rem;
 
    
@@ -523,8 +524,7 @@ h1, h2, h3{
 }
 
 .reg{
-  margin-top: 5rem;
-  text-align: center;
+   text-align: center;
   padding: 8em 5em;
   width: 50%;
   height: auto;
@@ -554,7 +554,14 @@ h1, h2, h3{
     .header-content .main-heading{
         display: none;
     }
-
+    .header {
+        position: relative;
+        height: 95vh;
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)) , url('../images/mob-header.jpg');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
     .row{
         height: auto;
         width: 100%;
@@ -604,13 +611,13 @@ h1, h2, h3{
        padding: 10rem 7.3rem;
        background: #fff;
        border: 2px solid #e63946;
+    
     }
     .wrap form{
         text-align: justify;
     }
     .reg{
-        margin-top: 5rem;
-        text-align: center;
+         text-align: center;
         padding: 8em 5em;
         width: 40rem;
         height: auto;
@@ -625,6 +632,14 @@ h1, h2, h3{
         display: block;
 
     }
+
+
+    .wrapper input[type=email], .wrapper input[type=password] , .wrapper input[type=submit], .reg input[type=email], .reg input[type=password] , .reg input[type=text], .reg input[type=email]{
+   padding: 0.4rem;
+   width: 25rem;
+   margin-bottom: 2.6rem;
+
+}
    
     
 }
@@ -636,6 +651,14 @@ h1, h2, h3{
     }
     p{
         font-size: 1.8rem;
+    }
+    .header {
+        position: relative;
+        height: 95vh;
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)) , url('../images/mob-header.jpg');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
     }
     .navbar .nav-items, .navbar .logo{
         float: none;
