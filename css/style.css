@@ -6,8 +6,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-/* ################## html element styling ###################  */
-html{
+ html{
     font-size: 62.5%;
 }
 
@@ -37,8 +36,7 @@ h1, h2, h3{
     font-weight: 500;
 }
 
-/* ################### utility classes ####################  */
-
+ 
 .container{
     max-width: 1200px;
     width: 90%;
@@ -448,7 +446,7 @@ h1, h2, h3{
     background: #fff;
     border: 2px solid #e63946;
  }
- .wrap h1{
+ .wrap h1, .reg h1{
      font-size: 2rem;
      font-weight: 700;
      margin-bottom: 2rem;
@@ -519,6 +517,7 @@ h1, h2, h3{
 
 .reg h1{
    font-weight: 700;
+   font-size: 2rem;
   padding-bottom: 2.3rem;
   text-transform: uppercase;
 }
