@@ -8,12 +8,12 @@
 }
  html{
     font-size: 62.5%;
+    line-height: 1.7;
 }
 
 body{
     font-family: 'Roboto', sans-serif;
-    line-height: 1.7;
-}
+ }
 
 ul li{
     list-style: none;
@@ -207,6 +207,7 @@ h1, h2, h3{
 }
 .row .text-box{
     padding: 3rem;
+    text-align: center;
 }
 
 .row .img-box img{
@@ -285,7 +286,7 @@ h1, h2, h3{
 
 
 /* ################## banner styling ##################### */
-.cta-banner{
+.banner{
     background: linear-gradient(25deg,#d64c7f,#ee4758 50%);
     color: #f4f4f4;
     padding: 1rem;
@@ -293,24 +294,24 @@ h1, h2, h3{
     margin-top: 3rem;
 }
 
-.cta-banner-left{
+.banner-left{
     width: 60%;
     float: left;
 }
 
-.cta-banner-right{
+.banner-right{
     width: 40%;
     float: right;
     text-align: right;
 }
 
-.cta-line{
+.cline{
     font-weight: 700;
     font-size: 2rem;
     margin-top: 1.5rem;
 }
 
-.btn-cta{
+.btn-banner{
     text-align: center;
     display: inline-block;
     font-weight: 700;
@@ -322,7 +323,7 @@ h1, h2, h3{
     color: #f4f4f4;
 }
 
-.cta-banner::after{
+.banner::after{
     content: '';
     display: block;
     clear: both;
@@ -369,8 +370,7 @@ h1, h2, h3{
     max-width: 90%;
     min-height: 40rem;
     object-fit: cover;
-    object-position: right;
-}
+ }
 
 /* ################# form styling #################### */
 .form-wrapper .form{
@@ -428,8 +428,6 @@ h1, h2, h3{
 
 /* ##################  Login Page styling ################# */
 
-
- 
   
 
  .wrapper{
@@ -438,11 +436,10 @@ h1, h2, h3{
  }
 
  .wrap{
-     text-align: center;
+    text-align: center;
     width: 50rem;
     height: auto;
     padding: 10rem;
-    /* box-shadow: 0px 0px 20px 0px rgb(0,0,0,0.4); */
     background: #fff;
     border: 2px solid #e63946;
  }
@@ -451,8 +448,6 @@ h1, h2, h3{
      font-weight: 700;
      margin-bottom: 4rem;
      letter-spacing: 4px;
-     
-
  }
 
 
@@ -465,15 +460,14 @@ h1, h2, h3{
 .wrapper input[type=submit], .reg input[type=submit]{
     background: #e63946;
     color: white;
-   border: none;
-   padding: 0.7rem;
-   font-weight: 700;
+    border: none;
+    padding: 0.7rem;
+    font-weight: 700;
 }
 .wrapper input[type=submit]:hover, .reg input[type=submit]:hover{
    cursor: pointer;
 }
 
- 
 .botom, .reg p{
      font-size: 1.6rem;
      letter-spacing: normal;
@@ -512,25 +506,24 @@ h1, h2, h3{
 }
 
 #signin p{
-  font-size: 1.2rem;
-  margin-bottom: 2rem;
+   font-size: 1.2rem;
+   margin-bottom: 2rem;
 }
 
 .reg h1{
    font-weight: 700;
    font-size: 2rem;
-  padding-bottom: 2.3rem;
-  text-transform: uppercase;
+   padding-bottom: 2.3rem;
+   text-transform: uppercase;
 }
 
 .reg{
-   text-align: center;
-  padding: 8em 5em;
-  width: 50%;
-  height: auto;
-  /* box-shadow: 0px 0px 20px 0px rgb(0,0,0,0.4); */
-  background: #fff;
-  border: 2px solid #e63946;
+    text-align: center;
+    width: 50rem;
+    height: auto;
+    padding: 10rem;
+     background: #fff;
+    border: 2px solid #e63946;
 } 
 
 
@@ -587,8 +580,8 @@ h1, h2, h3{
     .box-wrapper{
         box-shadow: none;
     }
-    .cta-banner-left,
-    .cta-banner-right{
+    .banner-left,
+    .banner-right{
         float: none;
         width: 100%;
         text-align: center;
@@ -614,34 +607,27 @@ h1, h2, h3{
     
     }
     .wrap form{
-        text-align: justify;
+        text-align: center;
     }
     .reg{
-         text-align: center;
+        text-align: center;
         padding: 8em 5em;
         width: 40rem;
         height: auto;
-         background: #fff;
+        background: #fff;
         border: 2px solid #e63946;
       } 
+      .botom{
+        text-align: center;
+
+      }
 
     .botom a, .botom input[type=checkbox]{
         float: none;
         width: 100%;
         height: auto;
         display: block;
-
-    }
-
-
-    .wrapper input[type=email], .wrapper input[type=password] , .wrapper input[type=submit], .reg input[type=email], .reg input[type=password] , .reg input[type=text], .reg input[type=email]{
-   padding: 0.4rem;
-   width: 25rem;
-   margin-bottom: 2.6rem;
-
-}
-   
-    
+    }   
 }
 
 @media(min-width: 501px) and (max-width: 768px){
@@ -693,8 +679,8 @@ h1, h2, h3{
     .box-wrapper{
         box-shadow: none;
     }
-    .cta-banner-left,
-    .cta-banner-right{
+    .banner-left,
+    .banner-right{
         float: none;
         width: 100%;
         text-align: center;
@@ -711,15 +697,7 @@ h1, h2, h3{
         height: auto;
     }
 
-    .reg{
-        margin-top: 5rem;
-        text-align: center;
-        padding: 8em 5em;
-        width: 60rem;
-        height: auto;
-         background: #fff;
-        border: 2px solid #e63946;
-      } 
+     
 
 }
 
@@ -737,5 +715,9 @@ h1, h2, h3{
 @media(orientation: landscape) and (max-height: 500px){
     .header{
         height: 90vmax;
+        
+    }
+    .header-content h1{
+        display: none;
     }
 }
