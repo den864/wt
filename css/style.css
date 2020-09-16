@@ -475,22 +475,18 @@ h1, h2, h3{
 
    
  }
- .botom input[type=checkbox]{
-     float: left;
+ .botom .check{
+     text-align: left;
   }
- .botom a{
+  .botom input[type=checkbox]{
+      margin-right: 0.5rem;
+  }
+ .botom .check a{
      float: right;
      text-decoration: none;
      color: rgb(58, 110, 179);
-     
-
-
  }
- .botom::after{
-     content: '';
-     display: block;
-     clear: both;
- }
+ 
 
 
 .sign{
@@ -616,18 +612,15 @@ h1, h2, h3{
         height: auto;
         background: #fff;
         border: 2px solid #e63946;
-      } 
-      .botom{
-        text-align: center;
+    }
+    .sign{
+        margin-top: 3rem;
+        font-size: 1.3rem;
+    }
+       
+       
 
-      }
-
-    .botom a, .botom input[type=checkbox]{
-        float: none;
-        width: 100%;
-        height: auto;
-        display: block;
-    }   
+      
 }
 
 @media(min-width: 501px) and (max-width: 768px){
