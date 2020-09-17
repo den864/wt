@@ -535,6 +535,15 @@ h1, h2, h3{
         width: 100%;
         text-align: center;
     }
+    .navbar .nav-items a{
+        text-decoration: none;
+        color: white;
+        padding:  .5rem .2rem;
+    }
+    .nav-items .active a{
+        background-color: white;
+        color: black;
+    }
      
     
     .header-content .main-heading{
