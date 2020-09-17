@@ -114,14 +114,11 @@ h1, h2, h3{
 
 .navbar{
     padding: 1rem;
-}
-
-
-.navbar .logo{
-    float: left;
-}
-
-.navbar .nav-items{
+ }
+ .navbar .logo{
+     float: left;
+ }
+ .navbar .nav-items{
     float: right;
     margin-top : 1rem;
 }
@@ -132,12 +129,10 @@ h1, h2, h3{
     text-transform: uppercase;
 }
 
- 
-
 .navbar .nav-items a{
     text-decoration: none;
     color: white;
-    padding:  0.2rem 0.4rem;
+    padding:  0.7rem 1rem;
 }
 
 .navbar .nav-items a:hover{
@@ -149,12 +144,13 @@ h1, h2, h3{
     background-color: white;
     color: black;
 }
-
 .navbar::after{
     content: '';
     display: block;
     clear: both;
 }
+
+ 
 
 /* #################### header content styling #######################  */
 
@@ -530,8 +526,7 @@ h1, h2, h3{
 
 @media (max-width: 500px){
     html{
-        /* font-size: 8px; */
-        font-size: 50%;
+         font-size: 45%;
     }
 
     .navbar .nav-items, .navbar .logo{
@@ -539,6 +534,15 @@ h1, h2, h3{
         display: block;
         width: 100%;
         text-align: center;
+    }
+    .navbar .nav-items a{
+        text-decoration: none;
+        color: white;
+        padding:  0.7rem;
+    }
+    .nav-items .active a{
+        background-color: white;
+        color: black;
     }
     .header-content .main-heading{
         display: none;
@@ -625,8 +629,7 @@ h1, h2, h3{
 
 @media(min-width: 501px) and (max-width: 768px){
     html{
-        /* font-size: 8px; */
-        font-size: 50%;
+         font-size: 50%;
     }
     p{
         font-size: 1.8rem;
